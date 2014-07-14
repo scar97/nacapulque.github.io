@@ -2937,8 +2937,8 @@ input[type="number"] {
 }
 **/
 
-.bg-image-cactus {
-  background: url('../img/background-images/cactus.jpg') scroll center no-repeat;
+.bg-image-home {
+  background: url('../img/slider1.jpg') scroll center no-repeat;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -2955,7 +2955,7 @@ input[type="number"] {
 **/
 
 .bg-image-bench {
-  background: url('../img/background-images/bench.jpg') scroll center no-repeat;
+  background: url('../img/c4.jpg') scroll center no-repeat;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;

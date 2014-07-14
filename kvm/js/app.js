@@ -75,10 +75,10 @@ jQuery(window).load(function() {
   // Google Maps Goodness
   if (document.getElementById('map_canvas')) {
     
-    var gLatitude = 40.787278;
-    var gLongitude = -73.969722;
+    var gLatitude = 19.343197;
+    var gLongitude = -99.158671;
     var gZoom = 13;
-    var gTitle = 'Nestor';
+    var gTitle = 'Kanda Varu Marken';
     var gDescription = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.';
       
     var latlng = new google.maps.LatLng(gLatitude, gLongitude);
