@@ -38,7 +38,7 @@
 /*************************************************************/
 
 a {
-  color: #ffb141;
+  color: #eb8824;
 }
 
 
@@ -63,7 +63,7 @@ a {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #ffb141;
+  color: #da5b28;
 }
 
 /** Nestor Main Menu **/
@@ -75,20 +75,20 @@ a {
 .nestor-main-menu .nav > li > a:focus,
 .nestor-main-menu .nav > li:hover > a,
 .nestor-main-menu .nav > li:focus > a {
-  color: #ffb141;
+  color: #da5b28;
 }
 
 .nestor-main-menu .dropdown-menu > .active > a,
 .nestor-main-menu .dropdown-menu > li > a:hover,
 .nestor-main-menu .dropdown-menu > li > a:focus {
-  color: #ffb141;
+  color: #da5b28;
 }
 
 @media (max-width: 767px) {
   
   .nestor-main-menu .navbar-toggle {
-    border: 1px solid #ffb141;
-    background: #ffb141;
+    border: 1px solid #da5b28;
+    background: #da5b28;
   }
   
 }
@@ -129,7 +129,7 @@ a {
 .social-networks-top-header a:hover,
 .social-networks-top-header a:focus,
 .social-networks-top-header a:active {
-  color: #ffb141;
+  color: #da5b28;
 }
 
 
@@ -148,7 +148,7 @@ a {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  color: #ffb141;
+  color: #da5b28;
 }
 
 
@@ -158,25 +158,25 @@ a {
 /*************************************************************/
 
 .nav-tabs > li > a:hover {
-  color: #ffb141;
+  color: #da5b28;
 }
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  border: 1px solid #ffb141;
-  color: #ffb141;
+  border: 1px solid #da5b28;
+  color: #da5b28;
 }
 
 .nav-tabs.nav-justified > li > a:hover {
-  color: #ffb141;
+  color: #da5b28;
 }
 
 .nav-tabs.nav-justified > .active >a,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:focus {
-  border: 1px solid #ffb141;
-  color: #ffb141;
+  border: 1px solid #da5b28;
+  color: #da5b28;
 }
 
 
@@ -186,7 +186,7 @@ a {
 /*************************************************************/
 
 .panel-primary > .panel-heading {
-  border: 1px solid #ffb141;
+  border: 1px solid #da5b28;
 }
 
 
@@ -197,7 +197,7 @@ a {
 
 /** Layout 1 **/
 .pricing-tables-1 .pricing-table-promotional .pricing-table-price {
-  background-color: #ffb141;
+  background-color: #da5b28;
 }
 
 
@@ -207,8 +207,8 @@ a {
 /*************************************************************/
 
 .btn-primary {
-  border-color: #ffb141;
-  color: #ffb141;
+  border-color: #da5b28;
+  color: #da5b28;
 }
 
 .btn-primary:hover,
@@ -216,12 +216,12 @@ a {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  border-color: #ffb141;
-  background-color: #ffb141;
+  border-color: #da5b28;
+  background-color: #da5b28;
 }
 
 .btn-link {
-  color: #ffb141;
+  color: #da5b28;
 }
 
 
@@ -231,7 +231,7 @@ a {
 /*************************************************************/
 
 .label-primary {
-  background-color: #ffb141;
+  background-color: #da5b28;
 }
 
 
@@ -241,7 +241,7 @@ a {
 /*************************************************************/
 
 .progress-bar-primary {
-  background-color: #ffb141;
+  background-color: #da5b28;
 }
 
 
@@ -251,7 +251,7 @@ a {
 /*************************************************************/
 
 .form-control:focus {
-  border-color: #ffb141;
+  border-color: #da5b28;
 }
 
 
@@ -264,11 +264,11 @@ a {
 .text-color-light .social-networks-footer a:hover,
 .text-color-light .social-networks-footer a:focus,
 .text-color-light .social-networks-footer a:active {
-  color: #ffb141;
+  color: #da5b28;
 }
 
 /** Text Colors **/
-.text-color-theme      { color: #ffb141; }
+.text-color-theme      { color: #da5b28; }
 
 /** Background Colors **/
-.bg-color-theme        { background-color: #ffb141; }
+.bg-color-theme        { background-color: #da5b28; }
