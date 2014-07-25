@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- SEO -->
-    <title>Kanda Varu Marken</title>
-    <meta name="description" content="HTML5 & CSS3 Multipurpose Theme" />
-    <meta name="keywords" content="HTML5, CSS3, Theme, ThemeForest, Flat, Responsive, Multipurpose, Modern" />
-    <link type="text/plain" rel="author" href="humans.txt" />
+    <title>Kanda Varu Marken | Contacto</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <link type="text/plain" rel="author" href="" />
     
-    <link href="favicon.png" rel="icon" type="image/png" />
+    <link href="" rel="icon" type="image/png" />
     
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,700%7cBitter:400,700' rel='stylesheet' type='text/css'>
     <!-- Bootstrap 3.1.0 -->
@@ -29,42 +29,63 @@
   <body>
     
     <div class="main-wrapper">
-      <header>
+      <div id="top-header-region" class="top-header region-5 block-5 bg-color-grayDark2">
         <div class="container">
           <div class="row">
 
+            <div id="top-header-left-region" class="top-header-left region-bottom-sm-0 col-xs-12 col-md-6 text-center-sm">
+              <div class="region">
+
+                <div id="text-widget-2-block" class="text-widget-2 block">
+
+                </div> <!-- /text-widget-2-block -->
+
+              </div> <!-- /region -->
+            </div> <!-- /top-header-left-region -->
+
+            <div id="top-header-right-region" class="top-header-right region-top-sm-0 col-xs-12 col-md-6 text-right text-center-sm">
+              <div class="region">
+                <div id="social-networks-top-header-block" class="social-networks-top-header block">
+                  <a href="https://www.facebook.com/KandaVaruMarken"><i class="icon ion-social-facebook"></i></a>
+                  <a href="https://twitter.com/kandamexico"><i class="icon ion-social-twitter"></i></a>
+                </div> <!-- /social-networks-top-header -->
+              </div> <!-- /region -->
+            </div> <!-- /top-header-right-region -->
+          </div> <!-- /row -->
+        </div> <!-- /container -->
+      </div> <!-- /top-header-region -->      
+      <header>
+        <div class="container">
+          <div class="row">
             <div id="logo-region" class="logo col-md-3 text-center-sm">
               <a href="index.html"><img src="img/logosmall.png" alt="logo" class="img-responsive" /></a>
             </div> <!-- /logo-region -->
-
             <div id="menu-region" class="col-md-9">
               <nav class="navbar nestor-main-menu" role="navigation">
                 <!-- Menu button for mobile display -->
                 <div class="navbar-header">
                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">MENU</button>
-                </div>
-            
-                 <!-- Navigation links -->
+                </div>            
+                <!-- Navigation links -->
                 <div class="collapse navbar-collapse navbar-ex1-collapse">
                   <ul class="nav navbar-right navbar-nav">
                     <li class="dropdown active">
-                        <li class="active"><a href="index.html">Inicio</a></li>
+                        <li><a href="index.html">Inicio</a></li>
                     </li>
                     <li class="dropdown">
-                        <li><a href="page-about.html">Empresa</a></li>
+                        <li><a href="nosotros.html">Empresa</a></li>
                     </li>
                     <li class="dropdown">
-                        <li><a href="#">Servicios</a></li>
+                        <li><a href="servicios.html">Soluciones</a></li>
                     </li>
                     <li class="dropdown">
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="http://kandavarumarken.com.mx/blog/">Blog</a></li>
                     </li>
-                    <li><a href="contact.html">Contacto</a></li>
+                    <li class="active"><a href="contacto.html">Contacto</a></li>
                   </ul>
                 </div> <!-- /navbar-collapse -->
               </nav>
             </div> <!-- /menu-region -->
-
           </div> <!-- /row -->
         </div> <!-- container -->
       </header>
@@ -79,20 +100,32 @@
                 <div id="page-title-block" class="page-title block">
                   <h1>Contacto</h1>
                 </div> <!-- /page-title-block -->
+
               </div> <!-- /region -->
             </div> <!-- /top-content-left-region -->
+          </div> <!-- /row -->
+        </div> <!-- /container -->
+      </div> <!-- /top-content-region -->
 
       <div id="content-region" class="content region">
 
         <div id="contacts-block" class="contacts block">
           <div class="container">
             <div class="row">
+
               <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2">
                 <h5>Dirección</h5>
-                <p></p>
-                <p>Manuel Toussaint #10 <br>Delegación Coyoacán <br>C.P. 04330</p>
+                <p>Manuel Toussaint #10</p>
+                <p>Delegación Coyoacán<br>C.P. 04330<br>México, D.F.</p>
               </div>
-            </div>
+
+              <div class="col-xs-12 col-sm-6 col-md-4 margin-top-xs-40">
+                <h5>Teléfonos</h5>
+                <p><b> </b> 5554-4148<br><b></b> 5554-6625</p>
+                <p><a href="mailto:contacto@kandavarumarken.com.mx">contacto@kandavarumarken.com.mx</a><br></p>
+              </div>
+
+            </div> <!-- /row -->
           </div> <!-- /container -->
         </div> <!-- /contacts-block -->
         
@@ -102,7 +135,7 @@
 
               <div class="col-xs-12 col-md-8 col-md-offset-2">
                 
-                <!--<?php  
+               <!--  <?php  
 
                   if (isset($_POST['submit'])) {
 
@@ -144,7 +177,7 @@
 
                     if (!$errors) {
                       $mail_to = 'youremail@yourdomain.com';
-                      $subject = "Nestor HTML: " . $_POST['contact-subject'];
+                      $subject = "KVM HTML: " . $_POST['contact-subject'];
                       $message  = 'From: ' . $_POST['contact-name'] . "<br>";
                       $message .= 'Email: ' . $email . "<br><br>";
                       $message .= "Message:<br>" . stripslashes($_POST['contact-message']) . "<br><br>";
@@ -177,13 +210,7 @@
                       <input type="email" class="form-control" id="contact-email" name="contact-email" placeholder="Email" />
                     </div> <!-- /col-md-6 -->
                   </div> <!-- /form-group -->
-                  
-                  <div class="form-group">
-                    <div class="col-xs-12">
-                      <input type="text" class="form-control" id="contact-subject" name="contact-subject" placeholder="Compañía" />
-                    </div> <!-- /col-xs-12 -->
-                  </div> <!-- /form-group -->
-                  
+         
                   <div class="form-group">
                     <div class="col-xs-12">
                       <textarea class="form-control" rows="8" id="contact-message" name="contact-message" placeholder="Mensaje"></textarea>

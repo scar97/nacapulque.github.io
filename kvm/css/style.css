@@ -551,7 +551,7 @@ a:active {
 }
 
 .overlay.overlay-30 {
-  background: rgba(0,0,0,.3);
+  background: rgba(0,0,0,.6);
 }
 
 .show { display: block!important; }
@@ -627,7 +627,7 @@ p:last-child {
 .icon {
   display: inline-block;
   line-height: 1;
-  font-size: 25px;
+  font-size: 24px;
 }
 
 .icon-list {
@@ -859,7 +859,7 @@ header {
 
 /** Nestor Main Menu **/
 .nestor-main-menu {
-  padding: 55px 0 0;
+  padding: 50px 0 0;
   margin: 0;
   border: 0;
   z-index: 998;
@@ -2636,6 +2636,10 @@ input[type="number"] {
 }
 
 
+textarea {
+  resize: none;
+}
+
 
 /*************************************************************/
 /************************* Switcher **************************/
@@ -2802,7 +2806,7 @@ input[type="number"] {
 }
 
 /** Text Colors **/
-.text-color-grayDark1 { color: #2b2b2b; }
+.text-color-grayDark1 { color: #2b2b2b;!important }
 .text-color-aqua      { color: #9adada; }
 .text-color-blue      { color: #2ac5ee; }
 .text-color-brown     { color: #c2b49a; }
@@ -2816,7 +2820,7 @@ input[type="number"] {
 /** Background Colors **/
 .bg-color-grayDark1    { background-color: #222222; }
 .bg-color-grayDark2    { background-color: #2b2b2b; }
-.bg-color-grayLight1   { background-color: #252525; }
+.bg-color-grayLight1   { background-color: #f6f6f6; }
 .bg-color-aqua         { background-color: #9adada; }
 .bg-color-blue         { background-color: #2ac5ee; }
 .bg-color-brown        { background-color: #c2b49a; }
@@ -2938,8 +2942,8 @@ input[type="number"] {
 }
 **/
 
-.bg-image-home {
-  background: url('../img/slider1.jpg') scroll center no-repeat;
+.bg-image-cactus {
+  background: url('../img/background-images/cactus.jpg') scroll center no-repeat;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -2973,7 +2977,7 @@ input[type="number"] {
 **/
 
 .bg-image-city {
-  background: url('../img/background-images/city.jpg') scroll center no-repeat;
+  background: url('../img/s1.jpg') scroll center no-repeat;
   -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
@@ -3039,3 +3043,93 @@ input[type="number"] {
   }
 }
 **/
+
+.logo_rot {
+  width: 175px;
+  height: 175px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  overflow: hidden;
+
+
+  -webkit-animation: spin 3s linear 0s infinite reverse;
+  -moz-animation: spin 3s linear 0s infinite reverse;  
+  -ms-animation: spin 3s linear 0s infinite reverse;
+  -o-animation: spin 3s linear 0s infinite reverse;
+  animation: spin 3s linear 0s infinite reverse;
+  
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -ms-animation-play-state: paused;
+  -o-animation-play-state: paused;  
+  animation-play-state: paused;
+
+}
+
+
+.rotation {
+  width: 172px;
+  height: 172px;
+  position: relative;
+  background-image: url(../img/avatar.png);
+  background-repeat: no-repeat;
+
+  -webkit-animation: spin 6s linear 0s infinite normal;
+  -moz-animation: spin 6s linear 0s infinite normal;
+  -ms-animation: spin 6s linear 0s infinite normal;
+  -o-animation: spin 6s linear 0s infinite normal;
+  animation: spin 6s linear 0s infinite normal;
+
+}
+
+.logo-rot:hover {
+  -webkit-animation-play-state: running;
+  -moz-animation-play-state: running;
+  -ms-animation-play-state: running;
+  -o-animation-play-state: running;
+  animation-play-state: running;
+}
+
+
+@keyframes spin {
+  0% { transform: rotate(-360deg); }
+  100% { transform: rotate(0deg); }
+}
+@-webkit-keyframes spin {
+  0% {-webkit-transform: rotate(-360deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+@-ms-keyframes spin {
+  0% {-ms-transform: rotate(-360deg); }
+  100% { -ms-transform: rotate(0deg); }
+}
+@-moz-keyframes spin {
+  0% { -moz-transform: rotate(-360deg); }
+  100% { -moz-transform: rotate(0deg); }
+}
+@-o-keyframes spin {
+  0% { -o-transform: rotate(-360deg); }
+  100% { -o-transform: rotate(0deg); }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
