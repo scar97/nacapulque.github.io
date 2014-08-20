@@ -1,3 +1,9 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
 body {
     width: 100%;
     height: 100%;
@@ -40,7 +46,7 @@ p {
 }
 
 a {
-    color: #28c3ab;
+    color: #219ab3;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -49,14 +55,14 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #176e61;
+    color: #11505d;
 }
 
 .light {
     font-weight: 400;
 }
 
-.navbar {
+.navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
@@ -64,16 +70,32 @@ a:focus {
     background-color: #231f20;
 }
 
-.navbar-brand {
+.navbar-custom .navbar-brand {
     font-weight: 700;
 }
 
-.navbar-brand:focus {
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
     outline: 0;
 }
 
 .navbar-custom a {
     color: #fff;
+}
+
+.navbar-custom .nav li.active {
+    outline: nonte;
+    background-color: rgba(255,255,255,.3);
 }
 
 .navbar-custom .nav li a {
@@ -84,20 +106,9 @@ a:focus {
 
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus,
-.navbar-custom .nav li.active {
+.navbar-custom .nav li a.active {
     outline: 0;
-    background-color: rgba(255,255,255,.1);
-}
-
-.navbar-toggle {
-    padding: 4px 6px;
-    font-size: 16px;
-    color: #fff;
-}
-
-.navbar-toggle:focus,
-.navbar-toggle:active {
-    outline: 0;
+    background-color: rgba(255,255,255,.3);
 }
 
 @media(min-width:767px) {
@@ -135,16 +146,16 @@ a:focus {
     -o-background-size: cover;
 }
 
-.intro-body {
+.intro .intro-body {
     display: table-cell;
     vertical-align: middle;
 }
 
-.brand-heading {
+.intro .intro-body .brand-heading {
     font-size: 40px;
 }
 
-.intro-text {
+.intro .intro-body .intro-text {
     font-size: 18px;
 }
 
@@ -154,11 +165,11 @@ a:focus {
         padding: 0;
     }
 
-    .brand-heading {
+    .intro .intro-body .brand-heading {
         font-size: 100px;
     }
 
-    .intro-text {
+    .intro .intro-body .intro-text {
         font-size: 25px;
     }
 }
@@ -168,8 +179,6 @@ a:focus {
     height: 70px;
     margin-top: 15px;
     padding: 7px 16px;
-/*    border: 2px solid #fff;
-    border-radius: 35px;*/
     font-size: 40px;
     color: #e9c86b;
     background: 0 0;
@@ -178,10 +187,6 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
-.btn-circle:hover {
-    cursor: pointer;
-} 
-
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
@@ -189,14 +194,14 @@ a:focus {
     background: rgba(255,255,255,.1);
 }
 
-.page-scroll .btn-circle i.animated {
+.btn-circle i.animated {
     -webkit-transition-property: -webkit-transform;
     -webkit-transition-duration: 1s;
     -moz-transition-property: -moz-transform;
     -moz-transition-duration: 1s;
 }
 
-.page-scroll .btn-circle:hover i.animated {
+.btn-circle:hover i.animated {
     -webkit-animation-name: pulse;
     -moz-animation-name: pulse;
     -webkit-animation-duration: 1.5s;
@@ -241,6 +246,10 @@ a:focus {
     }
 }
 
+section {
+    padding: 100px 0;
+}
+
 .content-section {
     padding-top: 100px;
 }
@@ -249,6 +258,17 @@ a:focus {
     padding-top: 50px;
 }
 
+.btn-xl2 {
+padding: 20px 40px;
+border-color: #e7c969;
+border-radius: 3px;
+text-transform: uppercase;
+font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 18px;
+font-weight: 700;
+color: #fff;
+background-color: #e7c969;
+}
 
 .menu-section {
     width: 100%;
@@ -259,6 +279,11 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+#message {
+    height: 130px;
+    resize:none;
 }
 
 #map {
@@ -284,7 +309,7 @@ a:focus {
 
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -292,25 +317,20 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #231f20;
-    color: #fff;
-    background-color: #231f20;
+    border: 1px solid #219ab3;
+    color: #219ab3;
+    background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #231f20;
+    border: 1px solid #219ab3;
     outline: 0;
-    color: #231f20;
-    background-color: #e9c86b;
+    color: #000;
+    background-color: #219ab3;
 }
 
-.btn-huge {
-    padding: 25px;
-    font-size: 26px;
-}
-
-.banner-social-buttons {
+ul.banner-social-buttons {
     margin-top: 0;
 }
 
@@ -321,15 +341,23 @@ a:focus {
 }
 
 @media(max-width:767px) {
-    ul.banner-social-buttons>li {
+    ul.banner-social-buttons li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
     }
 
-    ul.banner-social-buttons>li:last-child {
+    ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
+}
+
+footer {
+    padding: 50px 0;
+}
+
+footer p {
+    margin: 0;
 }
 
 ::-moz-selection {
@@ -354,4 +382,49 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+
+footer span.copyright {
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+footer ul.quicklinks {
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-transform: none;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 40px;
+}
+
+ul.social-buttons {
+    margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    outline: 0;
+    color: #fff;
+    background-color: #231f20;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    transition: all .3s;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #fed136;
 }

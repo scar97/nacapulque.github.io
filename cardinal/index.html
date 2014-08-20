@@ -1,55 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="N">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Casa Cardinal, Café, Roma, Condesa, café especialidad">
+    <meta name="author" content="R.">
 
     <title>Cardinal</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <!-- bootstrap css -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Fonts -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
-    <!-- CSS -->
+    <!-- css -->
     <link href="css/style.css" rel="stylesheet">
+
+    <!-- fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+    <!-- nav -->
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
-            <div class="navbar-header page-scroll">
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">
-                <!-- Logo -->Cardinal
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <!-- Logo -->Cardinal
                 </a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
+            
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#about">Acerca</a>
+                    <li>
+                        <a class="page-scroll" href="#about">Acerca</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#menu">Menu</a>
+                    <li>
+                        <a class="page-scroll" href="#menu">Menu</a>
                     </li>
-                    <li class="page-scroll">
-                        <a href="#contact">Contacto</a>
+                    <li>
+                        <a class="page-scroll" href="#contacto">Contacto</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#map">Mapa</a>
@@ -61,29 +65,27 @@
         <!-- /.container -->
     </nav>
 
-    <section class="intro">
+    <!-- header -->
+    <header class="intro">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Cardinal</h1>
-                        <p class="intro-text"></p>                        
-                        
-                        <div class="page-scroll">
-                            <a href="#about" class="btn btn-circle">
-                                <i class="fa fa-angle-double-down animated"></i>
-                            </a>
-                        </div>
+                        <h1 class="brand-heading"><img src="img/logo.png" /></h1>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </header>
 
+    <!-- about -->
     <section id="about" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Acerca de Cardinal</h2>
+                <h2>Acerca de Cardinal</h2><br><br>
                 <p>Cardinal es una cafetería de especialidad enfocada en entregar una experiencia grata y memorable al cliente mediante el desarrollo de bebidas de calidad personalizadas, por temporadas e innovadoras.</p>
                 <br>
                 <p>
@@ -93,51 +95,95 @@
         </div>
     </section>
 
-    <section id="menu" class="content-section_menu text-center">
+    <!-- menu -->
+    <section id="menu" class="content-section text-center">
         <div class="menu-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Cardinal | Menú</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum sit amet sapien sed ornare. Donec a volutpat erat. Integer aliquet tempus venenatis. Sed sagittis erat tincidunt ullamcorper vulputate. Cras sit amet pharetra mi. Nulla facilisi. Maecenas eleifend nisl dolor, in hendrerit quam commodo in. Nunc placerat luctus arcu, porta pharetra nulla congue at. In sit amet orci at lorem tempor iaculis. Cras auctor pharetra felis. Donec mattis tincidunt arcu vitae laoreet. Duis venenatis, sapien ac mollis luctus, purus nunc scelerisque tellus, vel dapibus eros orci eget elit. Fusce imperdiet facilisis augue, suscipit dapibus augue pharetra sed.</p>
-                    <a href="#" class="btn btn-default btn-lg">Ver Menú en PDF</a>
+                    <h2>Menú</h2>
+                    <p>Próximamente</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contacto</h2>
-                <p>Nunc placerat luctus arcu, porta pharetra nulla congue at. In sit amet orci at lorem tempor iaculis. Cras auctor pharetra felis.</p>
-                <p>cafe@cardinal.com</p>
-                <ul class="list-inline banner-social-buttons">
-                    <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                    </li>
-                    <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-foursquare fa-fw"></i> <span class="network-name">Foursquare</span></a>
-                    </li>
-                </ul>
-<!--                 <div class="page-scroll">
-                  <a href="#map" class="btn btn-circle">
-                    <i class="fa fa-angle-double-down animated"></i>
-                  </a>
-                </div> -->
+    <!-- contacto -->
+    <section id="contacto">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contacto</h2>                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Nombre" id="name" required data-validation-required-message="Ingresa tu nombre.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Email" id="email" required data-validation-required-message="Ingresa tu email">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Teléfono" id="phone" required data-validation-required-message="Ingresa tu teléfono.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Mensaje" id="message" required data-validation-required-message="Ingresa tu mensaje."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl2">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://twitter.com/casacardinal"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/cafecardinal"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- mapa -->
 
     <div id="map"></div>
 
-    <!-- Core JavaScript Files -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
 
-    <!-- Google Maps API Key -->
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbtmpv7V33WESM49jjrIPpm2EkAnV6kdQ"></script>
-    <!-- JavaScript -->
+    <!-- jQuery Version 1.11.0 -->
+    <script src="js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCbtmpv7V33WESM49jjrIPpm2EkAnV6kdQ&sensor=false"></script>
+
+    <!-- Custom Theme JavaScript -->
     <script src="js/functions.js"></script>
 
 </body>
