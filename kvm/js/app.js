@@ -34,13 +34,6 @@
     // Lightbox
     $('.venobox').venobox();
 
-    //Sticky Header
-    if ($().waypoint) {
-      $('header').waypoint('sticky', {
-        offset: "-25px"
-      });
-    }
-
     $(window).scroll(function() {
       if ($(this).scrollTop() > 200) {
         $('#back-to-top').fadeIn();
@@ -53,9 +46,22 @@
       $("html, body").animate({scrollTop: 0}, 300);
     });
 
+
+
+    var percent_number_step = $.animateNumber.numberStepFactories.append(' %')
+    $('#value1').animateNumber({ number: 120 }, 13000);
+    $('#value2').animateNumber({ number: 12 }, 12000);
+    $('#value3').animateNumber({ number: 15 }, 11000);
+    $('#value4').animateNumber({ number: 40, numberStep: percent_number_step }, 14000);
+
   });
+
+
   
 })(jQuery);
+
+
+
 
 jQuery(window).load(function() {
   "use strict";

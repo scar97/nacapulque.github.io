@@ -646,6 +646,11 @@ p:last-child {
   top: 0.5em;
 }
 
+#logo-region {
+  margin-top: 25px;
+  padding-bottom: 5px;
+}
+
 ul.tags {
   margin:0;
   padding: 0;
@@ -724,8 +729,8 @@ ul.tags li:last-child {
 
 /** Header **/
 header {
-  min-height: 125px;
-  background-color: #fff;
+  min-height: 80px;
+  background-color: #555555;
 }
 
 @media (min-width: 1200px) {
@@ -747,6 +752,11 @@ header {
 
   header.stuck {
     min-height: 100px!important;
+  }
+
+  #menu-region{
+    height: 80px;
+    min-height: 50px;
   }
 
   .stuck .logo img {
@@ -859,7 +869,7 @@ header {
 
 /** Nestor Main Menu **/
 .nestor-main-menu {
-  padding: 50px 0 0;
+  padding: 25px 0 0;
   margin: 0;
   border: 0;
   z-index: 998;
@@ -872,6 +882,7 @@ header {
 
 .nestor-main-menu .nav > li > a {
   padding: 0 20px 43px;
+  color: #fff;
 }
 
 .nestor-main-menu .nav > li:last-child > a {
