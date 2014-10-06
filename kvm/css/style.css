@@ -730,7 +730,7 @@ ul.tags li:last-child {
 /** Header **/
 header {
   min-height: 80px;
-  background-color: #555555;
+  background-color: #666;
 }
 
 @media (min-width: 1200px) {
@@ -1575,7 +1575,7 @@ header {
 
 /** Flex Bullet Slider **/
 .flex-bullet-slider .slides li {
-  display: none;
+/*  display: none;*/
 }
 
 .flex-bullet-slider .flex-control-nav {
@@ -1583,6 +1583,7 @@ header {
   bottom: -80px;
   height: 14px;
   z-index: 10;
+/*  display: none;*/
 }
 
 .flex-bullet-slider .flex-control-nav li {
@@ -1677,6 +1678,7 @@ header {
 .testimonials-1 .testimonials-1-text {
   line-height: 1.8em;
   font-weight: 100;
+  margin-top: 10px;
 }
 
 .testimonials-1 .testimonials-1-author {
@@ -1687,6 +1689,7 @@ header {
   position: relative;
   bottom: 0;
   margin-top: 60px;
+  display: none;
 }
 
 /** Testimonials 2 **/
@@ -1903,6 +1906,21 @@ header {
 /*************************************************************/
 /********************** Social Networks **********************/
 /*************************************************************/
+
+.redes_sociales {
+  width: 60px;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.redes_sociales li {
+  display: inline-block;
+  padding: 5px;
+}
+
 
 /** Social Networks **/
 .social-networks li {
@@ -3064,11 +3082,11 @@ textarea {
   overflow: hidden;
 
 
-  -webkit-animation: spin 3s linear 0s infinite reverse;
-  -moz-animation: spin 3s linear 0s infinite reverse;  
-  -ms-animation: spin 3s linear 0s infinite reverse;
-  -o-animation: spin 3s linear 0s infinite reverse;
-  animation: spin 3s linear 0s infinite reverse;
+  -webkit-animation: spin 5s linear 0s infinite reverse;
+  -moz-animation: spin 5s linear 0s infinite reverse;  
+  -ms-animation: spin 5s linear 0s infinite reverse;
+  -o-animation: spin 5s linear 0s infinite reverse;
+  animation: spin 5s linear 0s infinite reverse;
   
   -webkit-animation-play-state: paused;
   -moz-animation-play-state: paused;
@@ -3086,11 +3104,11 @@ textarea {
   background-image: url(../img/avatar.png);
   background-repeat: no-repeat;
 
-  -webkit-animation: spin 6s linear 0s infinite normal;
-  -moz-animation: spin 6s linear 0s infinite normal;
-  -ms-animation: spin 6s linear 0s infinite normal;
-  -o-animation: spin 6s linear 0s infinite normal;
-  animation: spin 6s linear 0s infinite normal;
+  -webkit-animation: spin 8s linear 0s infinite normal;
+  -moz-animation: spin 8s linear 0s infinite normal;
+  -ms-animation: spin 8s linear 0s infinite normal;
+  -o-animation: spin 8s linear 0s infinite normal;
+  animation: spin 8s linear 0s infinite normal;
 
 }
 
@@ -3124,6 +3142,20 @@ textarea {
   100% { -o-transform: rotate(0deg); }
 }
 
+
+.nosotros_pic {
+  width: 450px;
+  height: auto;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.servicios_lista {
+  list-style-type: none;
+  text-align: left;
+  font-size: 12px;  
+}
 
 
 

@@ -14,7 +14,7 @@
 
     // flexslider
     $('.flex-bullet-slider').flexslider({
-      slideshowSpeed: 10000,
+      slideshowSpeed: 6000,
       directionNav: false,
       animation: "fade"
     });
@@ -49,9 +49,9 @@
 
 
     var percent_number_step = $.animateNumber.numberStepFactories.append(' %')
-    $('#value1').animateNumber({ number: 120 }, 13000);
-    $('#value2').animateNumber({ number: 12 }, 12000);
-    $('#value3').animateNumber({ number: 15 }, 11000);
+    $('#value1').animateNumber({ number: 35 }, 13000);
+    $('#value2').animateNumber({ number: 30 }, 12000);
+    $('#value3').animateNumber({ number: 215 }, 11000);
     $('#value4').animateNumber({ number: 40, numberStep: percent_number_step }, 14000);
 
   });
@@ -85,7 +85,7 @@ jQuery(window).load(function() {
     var gLongitude = -99.158671;
     var gZoom = 13;
     var gTitle = 'Kanda Varu Marken';
-    var gDescription = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.';
+    var gDescription = '';
       
     var latlng = new google.maps.LatLng(gLatitude, gLongitude);
     
