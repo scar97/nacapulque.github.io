@@ -730,7 +730,7 @@ ul.tags li:last-child {
 /** Header **/
 header {
   min-height: 80px;
-  background-color: #666;
+  background-color: #bdbdbd;
 }
 
 @media (min-width: 1200px) {
@@ -1911,9 +1911,8 @@ header {
   width: 60px;
   height: auto;
   position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
+  left: 0;
+  margin-top: 60px;
 }
 
 .redes_sociales li {
@@ -3144,7 +3143,7 @@ textarea {
 
 
 .nosotros_pic {
-  width: 450px;
+  width: 780px;
   height: auto;
   position: relative;
   margin-left: auto;
