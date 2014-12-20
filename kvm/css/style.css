@@ -730,7 +730,7 @@ ul.tags li:last-child {
 /** Header **/
 header {
   min-height: 80px;
-  background-color: #bdbdbd;
+  background-color: #424242;
 }
 
 @media (min-width: 1200px) {
@@ -2847,7 +2847,7 @@ textarea {
 
 /** Background Colors **/
 .bg-color-grayDark1    { background-color: #222222; }
-.bg-color-grayDark2    { background-color: #555555; }
+.bg-color-grayDark2    { background-color: #424242; }
 .bg-color-grayLight1   { background-color: #f6f6f6; }
 .bg-color-aqua         { background-color: #9adada; }
 .bg-color-blue         { background-color: #2ac5ee; }

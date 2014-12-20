@@ -38,7 +38,7 @@
 /*************************************************************/
 
 a {
-  color: #e74c3c;
+  color: #DD2C00;
 }
 
 
@@ -63,7 +63,7 @@ a {
 .nav-pills > li.active > a,
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
-  color: #e74c3c;
+  color: #DD2C00;
 }
 
 /** Nestor Main Menu **/
@@ -75,20 +75,20 @@ a {
 .nestor-main-menu .nav > li > a:focus,
 .nestor-main-menu .nav > li:hover > a,
 .nestor-main-menu .nav > li:focus > a {
-  color: #e74c3c;
+  color: #DD2C00;
 }
 
 .nestor-main-menu .dropdown-menu > .active > a,
 .nestor-main-menu .dropdown-menu > li > a:hover,
 .nestor-main-menu .dropdown-menu > li > a:focus {
-  color: #e74c3c;
+  color: #DD2C00;
 }
 
 @media (max-width: 767px) {
   
   .nestor-main-menu .navbar-toggle {
-    border: 1px solid #e74c3c;
-    background: #e74c3c;
+    border: 1px solid #DD2C00;
+    background: #DD2C00;
   }
   
 }
@@ -129,7 +129,7 @@ a {
 .social-networks-top-header a:hover,
 .social-networks-top-header a:focus,
 .social-networks-top-header a:active {
-  color: #e74c3c;
+  color: #DD2C00;
 }
 
 
@@ -148,7 +148,7 @@ a {
 .pagination > .active > span:hover,
 .pagination > .active > a:focus,
 .pagination > .active > span:focus {
-  color: #e74c3c;
+  color: #DD2C00;
 }
 
 
@@ -158,25 +158,25 @@ a {
 /*************************************************************/
 
 .nav-tabs > li > a:hover {
-  color: #e74c3c;
+  color: #DD2C00;
 }
 
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  border: 1px solid #e74c3c;
-  color: #e74c3c;
+  border: 1px solid #DD2C00;
+  color: #DD2C00;
 }
 
 .nav-tabs.nav-justified > li > a:hover {
-  color: #e74c3c;
+  color: #DD2C00;
 }
 
 .nav-tabs.nav-justified > .active >a,
 .nav-tabs.nav-justified > .active > a:hover,
 .nav-tabs.nav-justified > .active > a:focus {
-  border: 1px solid #e74c3c;
-  color: #e74c3c;
+  border: 1px solid #DD2C00;
+  color: #DD2C00;
 }
 
 
@@ -186,7 +186,7 @@ a {
 /*************************************************************/
 
 .panel-primary > .panel-heading {
-  border: 1px solid #e74c3c;
+  border: 1px solid #DD2C00;
 }
 
 
@@ -197,7 +197,7 @@ a {
 
 /** Layout 1 **/
 .pricing-tables-1 .pricing-table-promotional .pricing-table-price {
-  background-color: #e74c3c;
+  background-color: #DD2C00;
 }
 
 
@@ -207,8 +207,8 @@ a {
 /*************************************************************/
 
 .btn-primary {
-  border-color: #e74c3c;
-  color: #e74c3c;
+  border-color: #DD2C00;
+  color: #DD2C00;
 }
 
 .btn-primary:hover,
@@ -216,12 +216,12 @@ a {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-  border-color: #e74c3c;
-  background-color: #e74c3c;
+  border-color: #DD2C00;
+  background-color: #DD2C00;
 }
 
 .btn-link {
-  color: #e74c3c;
+  color: #DD2C00;
 }
 
 
@@ -231,7 +231,7 @@ a {
 /*************************************************************/
 
 .label-primary {
-  background-color: #e74c3c;
+  background-color: #DD2C00;
 }
 
 
@@ -241,7 +241,7 @@ a {
 /*************************************************************/
 
 .progress-bar-primary {
-  background-color: #e74c3c;
+  background-color: #DD2C00;
 }
 
 
@@ -251,7 +251,7 @@ a {
 /*************************************************************/
 
 .form-control:focus {
-  border-color: #e74c3c;
+  border-color: #DD2C00;
 }
 
 
@@ -264,11 +264,11 @@ a {
 .text-color-light .social-networks-footer a:hover,
 .text-color-light .social-networks-footer a:focus,
 .text-color-light .social-networks-footer a:active {
-  color: #e74c3c;
+  color: #DD2C00;
 }
 
 /** Text Colors **/
-.text-color-theme      { color: #e74c3c; }
+.text-color-theme      { color: #DD2C00; }
 
 /** Background Colors **/
-.bg-color-theme        { background-color: #e74c3c; }
+.bg-color-theme        { background-color: #DD2C00; }
