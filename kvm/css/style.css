@@ -603,16 +603,16 @@ h1:first-child, h2:first-child, h3:first-child, h4:first-child, h5:first-child, 
   margin-top: 0;
 }
 
-h1 { font-size: 2.6em; }
-h2 { font-size: 2.2em; }
+h1 { font-size: 2.2em; }
+h2 { font-size: 2.0em; }
 h3 { font-size: 1.8em; }
 h4 { font-size: 1.6em; }
 h5 { font-size: 1.4em; }
 h6 { font-size: 1.2em; }
 
 p, span {
-  font-size: 1em;
-  line-height: 1.6em;
+  font-size: 0.8em;
+  line-height: 1.4em;
 }
 
 p:last-child {
@@ -3143,7 +3143,7 @@ textarea {
 
 
 .nosotros_pic {
-  width: 780px;
+  width: 100%;
   height: auto;
   position: relative;
   margin-left: auto;
