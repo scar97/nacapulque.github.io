@@ -62,7 +62,7 @@
                         <a href="interfaces.html"><i class="fa fa-fw fa-html5"></i> HTML5</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-fw fa-css3"></i> CSS3</a>
+                        <a href="interfaces2.html"><i class="fa fa-fw fa-css3"></i> CSS3</a>
                     </li>
                     <li class="active">
                         <a href="JavaScript:;" data-toggle="collapse" data-target="#jotaq"><i class="fa fa-fw fa-gears"></i> JavaScript <i class="fa fa-fw fa-caret-down"></i></a>
@@ -176,20 +176,100 @@
                                 <p>Archivo JS</p>
                                 <script src="http://pastebin.com/embed_js.php?i=a47xmcNz"></script><br><br>
                                 <li>Estructuras de control de flujo</li>
-                                <ul>
-                                    <li>If</li>
-                                    <script src="http://pastebin.com/embed_js.php?i=nxU8yg78"></script><br><br>
-                                    <li>If-Else</li>
-                                    <script src="http://pastebin.com/embed_js.php?i=XRNME2LE"></script><br><br>
-                                    <li>Switch</li>
-                                    <script src="http://pastebin.com/embed_js.php?i=D6Jn9Yas"></script><br><br>
-                                    <li>For</li>
-                                    <script src="http://pastebin.com/embed_js.php?i=C597EsYB"></script><br><br>
-                                    <li>While</li>
-                                    <script src="http://pastebin.com/embed_js.php?i=gcbVPUpm"></script><br><br>
-                                </ul>
+                                  <ul>
+                                      <li>If</li>
+                                      <script src="http://pastebin.com/embed_js.php?i=nxU8yg78"></script><br><br>
+                                      <li>If-Else</li>
+                                      <script src="http://pastebin.com/embed_js.php?i=XRNME2LE"></script><br><br>
+                                      <li>Switch</li>
+                                      <script src="http://pastebin.com/embed_js.php?i=D6Jn9Yas"></script><br><br>
+                                      <li>For</li>
+                                      <script src="http://pastebin.com/embed_js.php?i=C597EsYB"></script><br><br>
+                                      <li>While</li>
+                                      <script src="http://pastebin.com/embed_js.php?i=gcbVPUpm"></script><br><br>
+                                  </ul>
                                 <li>Objetos</li>
-                                <p></p>
+                                <p>Casi todo en JS puede ser un objeto: cadenas, funciones, arreglos, fechas, etc. En JS los objetos son datos, con propiedades y métodos.</p>
+                                <p>Ejemplo: Crear un objeto del usuario.</p>
+                                <script src="http://pastebin.com/embed_js.php?i=VtXepNtT"></script><br>
+                                <p>Para acceder a una propiedad del objeto se debe hacer referencia al nombre del objeto y al nombre del método dentro del mismo.</p>
+                                <p><code>nombreObjeto.nombrePropiedad</code></p>
+                                <p>Tal y como en Java, los tipos de datos son instancias de objetos que heredan métodos útiles. Por ejemplo:</p>
+                                <script src="http://pastebin.com/embed_js.php?i=xqgZ6nUV"></script><br>
+                                <li>Uso de formularios y JavaScript</li>
+                                  <ul>
+                                      <li>HTML
+                                        <script src="http://pastebin.com/embed_js.php?i=T9cGfQC6"></script><br>
+                                      </li>
+                                      <li>JavaScript
+                                        <script src="http://pastebin.com/embed_js.php?i=hnMwMA4g"></script><br>
+                                      </li>
+                                  </ul>
+                                <li>Formularios y tablas dinámicas.</li>
+                                  <ul>
+                                    <li>HTML
+                                      <script src="http://pastebin.com/embed_js.php?i=b80xJyrX"></script><br>
+                                    </li>
+                                    <li>CSS
+                                      <script src="http://pastebin.com/embed_js.php?i=Fa8DSmCv"></script><br>
+                                    </li>
+                                    <li>JS
+                                      <script src="http://pastebin.com/embed_js.php?i=xJgQUCeM"></script><br>  
+                                    </li>
+                                  </ul>
+                                <li>Manejo de Errores: Throw - Try - Catch</li>
+                                <p>Cuando se ejecuta código JavaScript pueden ocurrir diferentes tipos de errores:</p>
+                                <ul>
+                                  <li>errores de dedo del programador</li>
+                                  <li>palabras clave mal escritas o no existentes en el navegador</li>
+                                  <li>ingreso de datos incorrectos, por el usuario o alguna entidad de software</li>
+                                  <li>errores imprevistos</li>
+                                </ul>
+                                <p>Cuando ocurre un error, normalmente JavaScript se detiene y genera un mensaje de error. El término técnico de esta situación es: JavaScript arroja un error.</p>
+                                <ul>
+                                  <li>El parámetro try permite definir un bloque de código y verificar errores mientras se ejecuta.</li>
+                                  <li>El parámetro catch permite definir la acción que se llevará a cabo si ocurre un error en el bloque de código definido en try.</li>
+                                  <li>En JavaScript los parámetros try y catch se escriben en pares.</li>
+                                </ul>
+                                <p>Sintaxis:</p>
+                                <script src="http://pastebin.com/embed_js.php?i=v7q0bHdQ"></script><br>
+                                <p>Ejemplo:</p>
+                                <li>HTML
+                                  <script src="http://pastebin.com/embed_js.php?i=hNfLtzTJ"></script><br>
+                                </li>
+                                <li>JS
+                                  <script src="http://pastebin.com/embed_js.php?i=yi6e5eLZ"></script><br>
+                                </li>
+                                <p>El parámetro throw permite crear definir errores al programador, la forma correcta es crear o lanzar una excepción.</p>
+                                <p>Si se utiliza en conjunto con try-catch se puede controlar el flujo del programa y generar mensajes de error personalizados.</p>
+                                <h3>Ejemplo: Verificar el valor ingresado por el usuario.</h3>
+                                <li>HTML
+                                  <script src="http://pastebin.com/embed_js.php?i=iRweKjAS"></script><br>
+                                </li>
+                                <li>JS
+                                  <script src="http://pastebin.com/embed_js.php?i=rjpazhbA"></script><br>
+                                </li>
+                                <p>JavaScript puede ser utilizado para validar formularios HTML antes de ser enviados al servidor. Lo típico que se verifica con JS antes de ser enviado puede ser:</p>
+                                <ul>
+                                  <li>Campos vacíos.</li>
+                                  <li>Direcciones válidas de correo.</li>
+                                  <li>Fechas válidas.</li>
+                                  <li>Texto en campos numéricos o viceversa.</li>
+                                </ul>
+                                <h3>Ejemplo: Validar campos de texto.</h3>
+                                <li>HTML
+                                  <script src="http://pastebin.com/embed_js.php?i=yEYRLKtb"></script><br>
+                                </li>
+                                <li>JS
+                                  <script src="http://pastebin.com/embed_js.php?i=2s5tB0GJ"></script><br>
+                                </li>
+                                <h3>Ejemplo: Validación de dirección de correo electrónico</h3>
+                                <li>HTML
+                                  <script src="http://pastebin.com/embed_js.php?i=mhGZw6FC"></script><br>
+                                </li>
+                                <li>JS
+                                  <script src="http://pastebin.com/embed_js.php?i=xXYhmFvt"></script><br>
+                                </li>
                         </ul>
                     </div>
                 </div>

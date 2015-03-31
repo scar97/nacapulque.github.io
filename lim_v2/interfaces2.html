@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Liceo Ibero Mexicano de Acapulco | Programación para Internet</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Programación para internet</a>
+            </div>
+            <!-- Top Menu Items -->
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav side-nav">
+                    <li>
+                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Curso</a>
+                    </li>
+                    <li>
+                        <a href="usabilidad.html"><i class="fa fa-fw fa-mobile"></i> Usabilidad</a>
+                    </li>
+                    <li>
+                        <a href="arquitectura.html"><i class="fa fa-fw fa-table"></i> Arquitectura de Información</a>
+                    </li>
+                    <li>
+                        <a href="interfaces.html"><i class="fa fa-fw fa-html5"></i> HTML5</a>
+                    </li>
+                    <li class="active">
+                        <a href="interfaces2.html"><i class="fa fa-fw fa-css3"></i> CSS3</a>
+                    </li>
+                    <li>
+                        <a href="JavaScript:;" data-toggle="collapse" data-target="#jotaq"><i class="fa fa-fw fa-gears"></i> JavaScript <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="jotaq" class="collapse">
+                            <li>
+                                <a href="javascript.html">JavaScript</a>
+                            </li>
+                            <li>
+                                <a href="#">jQuery</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="JavaScript:;" data-toggle="collapse" data-target="#sql"><i class="fa fa-fw fa-cog"></i> PHP <i class="fa fa-fw fa-caret-down"></i></a>
+                        <ul id="sql" class="collapse">
+                            <li>
+                                <a href="#">PHP</a>
+                            </li>
+                            <li>
+                                <a href="#">MySQL</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-jsfiddle"></i> Software</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-fw fa-pencil-square-o"></i> Prácticas</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </nav>
+
+        <div id="page-wrapper">
+
+            <div class="container-fluid">
+
+                <!-- Page Heading -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">
+                            Programación para Internet <small>CSS3</small>
+                        </h1>
+                        <ol class="breadcrumb">
+                            <li>
+                                <i class="fa fa-dashboard"></i>  <a href="index.html">Curso</a>
+                            </li>
+                            <li class="active">
+                                <i class="fa fa-html5"></i> CSS3
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+                <!-- /.row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">CSS</h1>
+                        <h3>Definición</h3>
+                        <p>Todos los elementos en HTML pueden ser considerados como cajas. En CSS en término “modelo de caja” se utiliza cuando se trata acerca del diseño y estilo.</p>
+                        <p>El modelo de cajas consiste de margenes, bordes, espaciado y contenido.</p><br>
+                        <img src="img/box-model.gif" style="display:block;margin: 0 auto;"><br>
+                        <ul>
+                            <li>Margin: Establece un área alrededor del borde. El margen no tiene un color de fondo, es transparente.</li>
+                            <li>Border: El borde que se encuenra entre el espaciado y el contenido. El borde es heredado de la propiedad color de la caja.</li>
+                            <li>Padding: Establece un área alrededor del contenido. El espaciado es afectado por el color de fondo de la caja.</li>
+                            <li>Content: El contenido de la caja, el lugar donde está el texto o imágenes.</li>
+                        </ul>
+                        <br>
+                        <h3>Ejemplo 1. Modelo de cajas de CSS</h3><br>
+                        <script src="http://pastebin.com/embed_js.php?i=knf4jMcc"></script><br><br>
+                        <h3>Border</h3><br>
+                        <p>La propiedad border-style especifica que tipo de borde se desplegará.</p>
+                        <ul>
+                          <li>Border Width. Define el ancho del borde. Por defecto se utiliza pixeles pero se puede utilizar valores: thin, medium o thick.</li><br><script src="http://pastebin.com/embed_js.php?i=WG0xYXAP"></script><br>
+                          <li>Border Color. Define el color del borde. El color puede ser establecido como:</li>
+                          <ul>
+                            <li>Nombre. Especificar el color por su nombre. e.g. "red"</li>
+                            <li>RGB. Especificar el valor RGB. e.g. "rgb(255,0,0)"</li>
+                            <li>Hex. Especificar el valor hexadecimal. e.g. "#ff0000"</li><br><script src="http://pastebin.com/embed_js.php?i=N3kSueA3"></script><br>
+                          </ul>
+                        </ul>
+                        <p>En CSS es posible especificar diferentes bordes para todos los lados:</p><br>
+                        <script src="http://pastebin.com/embed_js.php?i=agPGn7tk"></script><br>
+                        <p>Con la finalidad de reducir la cantidad de código, es posible especificar todos los bordes en uno solo. Sin embargo, es posible especificar el borde por separado por si fuera necesario. Por lo tanto, esta propiedad puede tener de uno a cuatro valores:</p>
+                        <ul>
+                          <li>border-style: dotted solid double dashed;
+                            <ul>
+                              <li>borde superior = punteado</li>
+                              <li>borde derecho = sólido</li>
+                              <li>borde inferior = doble</li>
+                              <li>borde izquierdo = sombreado</li>
+                            </ul>
+                          </li>
+                          <li>border-style: dotted solid double;
+                            <ul>
+                              <li>borde superior = punteado</li>
+                              <li>borde derecho e izquierdo = sólido</li>
+                              <li>borde inferior = doble</li>
+                            </ul>
+                          </li>
+                          <li>border-style: dotted solid;
+                            <ul>
+                              <li>borde superior e inferior = punteado</li>
+                              <li>borde derecho e izquierdo= sólido</li>
+                            </ul>
+                          </li>
+                          <li>border-style: dotted;
+                            <ul>
+                              <li>borde superior, inferior, derecho e izquierdo = punteado</li>
+                            </ul>
+                          </li>
+                        </ul>
+                        <h3>Margin</h3>
+                        <p>El margen es el área alrededor de un elemento (fuera del borde). El margen no tiene color de fondo y es transparente.</p>
+                        <p>Posibles valores</p>
+                        <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th>Valor</th>
+                              <th>Descripción</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>auto</td>
+                              <td>El navegador calcula el margen.</td>
+                            </tr>
+                            <tr>
+                              <td>length</td>
+                              <td>Especifica el margen en px, pt, cm, etc. El valor por defecto es 0px.</td>
+                            </tr>
+                            <tr>
+                              <td>%</td>
+                              <td>Especifica un margen en porcentaje del ancho del elemento contenido.</td>
+                            </tr>
+                            <tr>
+                              <td>inherit</td>
+                              <td>Especifica que el margen debe ser heredado de elemento padre.</td>
+                            </tr>
+                          </tbody>
+                        </table>
+                        <p>En CSS es posible especificar diferente margen para cada lado de la caja. Por ejemplo:</p>
+                        <ul>
+                          <li><code>margin-top:100px;</code></li>
+                          <li><code>margin-bottom:100px;</code></li>
+                          <li><code>margin-right:50px;</code></li>
+                          <li><code>margin-left:50px;</code></li>
+                        </ul><br>
+                        <p>Con la finalidad de reducir la cantidad de código, es posible especificar todos los márgenes en uno solo. Sin embargo, es posible especificar el margen por separado por si fuera necesario. Por lo tanto, esta propiedad puede tener de uno a cuatro valores:</p>
+                        <ul>
+                          <li><code>margin: 25px 50px 75px 100px;</code>
+                            <ul>
+                              <li>margen superior = 25px</li>
+                              <li>margen derecho = 50px</li>
+                              <li>margen inferior = 75px</li>
+                              <li>margen izquierdo = 100px</li>
+                            </ul>
+                          </li>
+                          <li><code>margin: 25px 50px 75px;</code>
+                            <ul>
+                              <li>margen superior = 25px</li>
+                              <li>margen derecho e izquierdo = 50px</li>
+                              <li>margen inferior = 75px</li>
+                            </ul>
+                          </li>
+                          <li><code>margin: 25px 50px;</code>
+                            <ul>
+                              <li>margen superior e inferior = 25px</li>
+                              <li>margen derecho e izquierdo= 50px</li>
+                            </ul>
+                          </li>
+                          <li><code>margin: 25px;</code>
+                            <ul>
+                              <li>margen superior, inferior, derecho e izquierdo = 25px</li>
+                            </ul>
+                          </li>
+                        </ul><br>
+                        <h3>Padding</h3>
+                        <p>En CSS es posible especificar diferente espaciado para cada lado de la caja. Por ejemplo:</p>
+                        <ul>
+                          <li><code>padding-top:25px;</code></li>
+                          <li><code>padding-bottom:25px;</code></li>
+                          <li><code>padding-right:50px;</code></li>
+                          <li><code>padding-left:50px;</code></li>
+                        </ul><br>
+                        <p>Con la finalidad de reducir la cantidad de código, es posible especificar todos los espaciados en uno solo. Sin embargo, es posible especificar el espaciado por separado por si fuera necesario. Por lo tanto, esta propiedad puede tener de uno a cuatro valores:</p>
+                        <ul>
+                          <li><code>padding: 25px 50px 75px 100px;</code>
+                            <ul>
+                              <li>espaciado superior = 25px</li>
+                              <li>espaciado derecho = 50px</li>
+                              <li>espaciado inferior = 75px</li>
+                              <li>espaciado izquierdo = 100px</li>
+                            </ul>
+                          </li>
+                          <li><code>padding: 25px 50px 75px;</code>
+                            <ul>
+                              <li>espaciado superior = 25px</li>
+                              <li>espaciado derecho e izquierdo = 50px</li>
+                              <li>espaciado inferior = 75px</li>
+                            </ul>
+                          </li>
+                          <li><code>padding: 25px 50px;</code>
+                            <ul>
+                              <li>espaciado superior e inferior = 25px</li>
+                              <li>espaciado derecho e izquierdo= 50px</li>
+                            </ul>
+                          </li>
+                          <li><code>padding: 25px;</code>
+                            <ul>
+                              <li>espaciado superior, inferior, derecho e izquierdo = 25px</li>
+                            </ul>
+                          </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container-fluid -->
+
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+
+</body>
+
+</html>
