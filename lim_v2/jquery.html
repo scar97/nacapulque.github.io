@@ -147,7 +147,7 @@
                         </ul>
                         <p>jQuery debe agregarse al código HTML tal y como lo hacemos con cualquier JS.</p>
                         <p>Existen dos versiones de jQuery, desarrollo y producción. La versión de desarrollo incluye funcionalidades que se encuentran en fase de prueba (beta), mientras que la versión de desarrollo contiene las funciones que ya pasaron por la etapa de prueba y ha sido minimizada y comprimida. En la mayoría de los casos, es recomendable utilizar la versión de producción.</p><br>
-                        <h2>Sintaxis básica de jQuery.</h2>
+                        <h3>Sintaxis básica de jQuery.</h3>
                         <p>La sintaxis jQuery está hecha para seleccionar elementos HTML y realizar alguna acción en estos elementos.</p>
                         <p>La sintaxis básica es <code>$(selector).action()</code></p>
                         <ul>
@@ -167,16 +167,16 @@
                           <li>Tratar de esconder un elemento que no ha sido creado aún.</li>
                           <li>Tratar de obtener el tamaño de una imagen que no ha sido cargada aún.</li>
                         </ul><br>
-                        <h2>Ejemplo 1. Comenzando con jQuery</h2>
+                        <h3>Ejemplo 1. Comenzando con jQuery</h3>
                         <script src="http://pastebin.com/embed_js.php?i=35Tdb4P7"></script><br>
-                        <h2>Ejemplo 2.</h2>
+                        <h3>Ejemplo 2.</h3>
                         <script src="http://pastebin.com/embed_js.php?i=Tytbaw9w"></script><br>
-                        <h2>Ejemplo 3.</h2>
+                        <h3>Ejemplo 3.</h3>
                         <p>HTML</p>
                         <script src="http://pastebin.com/embed_js.php?i=2JvihquZ"></script><br>
                         <p>JS</p>
                         <script src="http://pastebin.com/embed_js.php?i=GARjd9HA"></script><br>
-                        <h2>Eventos jQuery.</h2>
+                        <h3>Eventos jQuery.</h3>
                         <p>jQuery está hecho para responder a los eventos que ocurren en una página HTML. Un evento es cada una de las diversas acciones que puede llevar a cabo el usuario que la página pueda responder. Un evento representa el momento preciso cuando algo ocurre. Ejemplos:</p>
                         <ul>
                           <li>Mover el ratón sobre un elemento.</li>
@@ -220,25 +220,61 @@
                             </tr>
                           </tbody>                          
                         </table><br>
-                        <h2>Ejemplo 4.</h2>
+                        <h3>Ejemplo 4.</h3>
                         <script src="http://pastebin.com/embed_js.php?i=mrT3sZYk"></script><br>
-                        <h2>Ejemplo 5.</h2>
+                        <h3>Ejemplo 5.</h3>
                         <script src="http://pastebin.com/embed_js.php?i=TbPBvXbF"></script><br>
-                        <h2>Ejemplo 6.</h2>
+                        <h3>Ejemplo 6.</h3>
                         <script src="http://pastebin.com/embed_js.php?i=K5s1abJQ"></script><br>
-                        <h2>Ejemplo 7.</h2>
+                        <h3>Ejemplo 7.</h3>
                         <script src="http://pastebin.com/embed_js.php?i=hBT5kb1j"></script>
                         <p>El método <code>hover()</code> es la combinación de los métodos <code>mouseenter()</code> y <code>mouseleave()</code></p><br>
-                        <h2>Ejemplo 8.</h2>
+                        <h3>Ejemplo 8.</h3>
                         <script src="http://pastebin.com/embed_js.php?i=LieZWiYU"></script>
                         <p>El método <code>focus()</code> maneja el evento cuando un campo de un formulario recibe el foco de atención. El método <code>blur()</code> maneja el evento cuando un campo pierde el foco de atención.</p><br>
-                        <h2>Ejemplo 9.</h2>
+                        <h3>Ejemplo 9.</h3>
                         <script src="http://pastebin.com/embed_js.php?i=uskAfhzz"></script><br>
-                        <h2>Ejemplo 10. Modificar el contenido de párrafos y tablas.</h2>
+                        <h3>Ejemplo 10. Modificar el contenido de párrafos y tablas.</h3>
                         <p>HTML</p>
                         <script src="http://pastebin.com/embed_js.php?i=LtKFTU23"></script><br>
                         <p>jQuery</p>
-                        <script src="http://pastebin.com/embed_js.php?i=0mykn0dw"></script><br>        
+                        <script src="http://pastebin.com/embed_js.php?i=0mykn0dw"></script><br>
+                        <h2>Efectos en jQuery</h2>
+                        <h3>Mostrar y ocultar</h3>
+                        <p>Los métodos <code>hide()</code> y <code>show()</code> permiten ocultar y mostrar elementos HTML respectivamente.</p>
+                        <h3>Ejemplo 11. Efectos en jQuery: Aparecer y desaparecer texto.</h3>
+                        <p>HTML</p>
+                        <script src="http://pastebin.com/embed_js.php?i=EuziJEkX"></script><br>
+                        <p>jQuery</p>
+                        <script src="http://pastebin.com/embed_js.php?i=PKeFSJ2X"></script>
+                        <p>Las funciones <code>hide()</code> y <code>show()</code> permiten recibir un par de parámetros que permiten controlar la velocidad con la que se llevan a cabo las animaciones. El parámetro que se envía es un tiempo en milisegundos. El método <code>toggle()</code> es la combinación de <code>hide</code> y <code>show</code>, si <code>hide</code> es verdadero se aplica <code>show</code> y viceversa.</p>
+                        <br>
+                        <h3>Ejemplo 12. Método toggle.</h3>
+                        <p>HTML</p>
+                        <script src="http://pastebin.com/embed_js.php?i=veSu74P7"></script><br>
+                        <p>jQuery</p>
+                        <script src="http://pastebin.com/embed_js.php?i=SNeXL7zU"></script><br>
+                        <h3>Desvanecer y aparecer.</h3>
+                        <p>Con jQuery se pueden aparecer y desaparecer elementos con los métodos <code>fadeIn()</code> y <code>fadeOut()</code> respectivamente.</p>
+                        <h3>Ejemplo 13. fadeIn/fadeOut</h3>
+                        <p>HTML</p>
+                        <script src="http://pastebin.com/embed_js.php?i=xAmGV5Ts"></script><br>
+                        <p>jQuery</p>
+                        <script src="http://pastebin.com/embed_js.php?i=5EEh8iQn"></script>
+                        <p>El método <code>fadeToggle()</code> es la combinación de <code>fadeIn()</code> y <code>fadeOut()</code>.</p>
+                        <br>
+                        <h3>Ejemplo 14. fadeToggle</h3>
+                        <p>HTML</p>
+                        <script src="http://pastebin.com/embed_js.php?i=avpyPrH6"></script><br>
+                        <p>jQuery</p>
+                        <script src="http://pastebin.com/embed_js.php?i=hBbdxtdw"></script><br>
+                        <h3>Desplazar</h3>
+                        <p>El método <code>slide()</code> permite desplazar hacia arriba o abajo un elemento HTML.</p>
+                        <h3>Ejemplo 15. slideDown y slideUp</h3>
+                        <p>HTML</p>
+                        <script src="http://pastebin.com/embed_js.php?i=8ebMUGsg"></script><br>
+                        <p>jQuery</p>
+                        
                     </div>
                 </div>
                 <!-- /.row -->
