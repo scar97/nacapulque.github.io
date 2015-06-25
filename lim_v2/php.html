@@ -64,7 +64,7 @@
                     <li>
                         <a href="interfaces2.html"><i class="fa fa-fw fa-css3"></i> CSS3</a>
                     </li>
-                    <li class="active">
+                    <li>
                         <a href="JavaScript:;" data-toggle="collapse" data-target="#jotaq"><i class="fa fa-fw fa-gears"></i> JavaScript <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="jotaq" class="collapse">
                             <li>
@@ -75,8 +75,8 @@
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a href="JavaScript:;" data-toggle="collapse" data-target="#sql"><i class="fa fa-fw fa-cog"></i> PHP <i class="fa fa-fw fa-caret-down"></i></a>
+                    <li class="active">
+                        <a href="PHP:;" data-toggle="collapse" data-target="#sql"><i class="fa fa-fw fa-cog"></i> PHP <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="sql" class="collapse">
                             <li>
                                 <a href="php.html">PHP</a>
@@ -150,7 +150,297 @@
                         <h3>Variables.</h3>
                         <h3>Declaración.</h3>
                         <p>Las variables son contenedores abstractos de datos que se convierten cuando es necesario y no necesitan ser declaradas. Una variable es creada en el momento que se le asigna un valor por primera vez.</p>
-                        
+                        <h3>Ejemplo 5. Declaración de variables.</h3>
+                        <script src="http://pastebin.com/embed_js.php?i=vdL9Epr4"></script>
+                        <p>En PHP las variables pueden ser "declaradas" en cualquier lugar del script, sin embargo se recomienda al inicio, con la finalidad de tener un código más ordenado.</p><br>
+                        <h3>Ámbito de las variables.</h3>
+                        <p>El ámbito de una variable es la parte del script donde puede ser utilizada o referenciada. PHP tiene tres tipos de ámbitos:</p>
+                        <ul>
+                          <li>Local</li>
+                          <li>Global</li>
+                          <li>Estático</li>
+                        </ul>
+                        <h3>Ámbito local y global</h3>
+                        <p>Una variable declarada fuera de una función tiene ámbito global y sólo puede ser accesada fuera de la función. Una variable declarada dentro de una función tiene ámbito local y sólo puede ser accesada por esa función.</p>
+                        <h3>Ejemplo 6. Ámbito de las variables.</h3>
+                        <script src="http://pastebin.com/embed_js.php?i=ViSCUZMd"></script><br>
+                        <h3>Palabra clave global.</h3>
+                        <p>La palabra clave “global” se utiliza para acceder a variables globales desde el interior de una función. Para hacer esto se antepone la palabra global al nombre de la variable.</p>
+                        <h3>Ejemplo 7. Variables globales.</h3>
+                        <script src="http://pastebin.com/embed_js.php?i=cr964Uuf"></script><br>
+                        <h3>Variables estáticas.</h3>
+                        <p>Típicamente cuando una función termina su ejecución todas las variables contenidas en ella son borradas, sin embargo algunas veces es necesario mantenerlas. Para ésto se antepone la palabra clave static al nombre de la variable la primera vez que se utilice.</p>
+                        <h3>Ejemplo 8. Variable estática.</h3>
+                        <script src="http://pastebin.com/embed_js.php?i=7EZBADyv"></script>
+                        <p>Cada vez que la variable es llamada, contendrá la información de la última vez que fue utilizada. A pesar de esto, la variable seguirá siendo local.</p><br>
+                        <h3>Sentencia echo y print.</h3>
+                        <p>En PHP existen dos formas de imprimir contenido: echo y print, sin embargo existen algunas diferencias entre ellas:</p>
+                        <ul>
+                          <li><code>echo</code>: Puede imprimir una o más cadenas.</li>
+                          <li><code>print</code>: Sólo puede imprimir una cadena y siempre devuelve “1”.</li>
+                        </ul>
+                        <p>Ambas sentencias pueden utilizarse o no con paréntesis.</p>
+                        <h3>Ejemplo 9. Sentencia echo.</h3>
+                        <script src="http://pastebin.com/embed_js.php?i=j3i6Zmme"></script><br>
+                        <h3>Ejemplo 10. Secuencia print.</h3>
+                        <script src="http://pastebin.com/embed_js.php?i=7McwSVQU"></script><br>
+                        <h3>Tipos de Datos.</h3>
+                        <p>Aunque las variables son contenedores abstractos si pueden tener un tipo de dato. Los tipos de datos que hay en PHP son <code>string</code>, <code>integer</code>, <code>floating</code>, <code>boolean</code>, <code>array</code>, <code>object</code> y <code>null</code>.</p>
+                        <h3>Cadenas.</h3>
+                        <p>Una cadena es una serie de caracteres. Una cadena puede ser cualquier texto dentro de comillas sencillas o dobles.</p>
+                        <script src="http://pastebin.com/embed_js.php?i=Ye7WWraZ"></script><br>
+                        <h3>Enteros.</h3>
+                        <p>Un entero es un número sin decimales. La función de PHP var_dump() devuelve el tipo de dato y el valor de la variable recibida.</p>
+                        <script src="http://pastebin.com/embed_js.php?i=Evs5RW0x"></script><br>
+                        <h3>Flotantes.</h3>
+                        <p>Un número flotante es un número con punto decimal o bien un número en forma exponencial (notación científica).</p>
+                        <script src="http://pastebin.com/embed_js.php?i=zEq50Jfh"></script><br>
+                        <h3>Booleanos.</h3>
+                        <p>Los booleanos sólo pueden ser TRUE o FALSE. Son típicamente utilizados en pruebas condicionales.</p>
+                        <script src="http://pastebin.com/embed_js.php?i=iAjKyVj2"></script><br>
+                        <h3>Arreglos.</h3>
+                        <p>Un arreglo almacena múltiples valores en una sola variable.</p>
+                        <h3>Ejemplo 11. Arreglos en PHP.</h3>
+                        <script src="http://pastebin.com/embed_js.php?i=fACw5w6a"></script><br>
+                        <h3>Objetos.</h3>
+                        <p>Un objeto es un tipo de dato que almacena datos e información y la forma en como serán procesados. Los objetos deben ser explícitamente declarados con la palabra clave <code>class</code>.</p>
+                        <h3>Ejemplo 12. Creación de un objeto y métodos.</h3>
+                        <script src="http://pastebin.com/embed_js.php?i=8r1JGUVq"></script><br>
+                        <h3>Null.</h3>
+                        <p>El tipo de dato Null representa que una variable no tiene un valor. El único valor posible de una variable nula es NULL. El valor NULL identifica si una variable está vacía o no. Es útil para diferenciar si algún campo en una base de datos está vacío o si tiene una cadena vacía.</p>
+                        <script src="http://pastebin.com/embed_js.php?i=Ntqu1KQ8"></script><br>
+                        <h3>Operadores.</h3>
+                        <ul>
+                          <li>Operadores aritméticos en PHP.<br>
+                          <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th>Operador</th>
+                              <th>Nombre</th>
+                              <th>Ejemplo</th>
+                              <th>Resultado</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>+</td>
+                              <td>Suma</td>
+                              <td>$x + $y</td>
+                              <td>Suma de $x + $y</td>
+                            </tr>
+                            <tr>
+                              <td>-</td>
+                              <td>Resta</td>
+                              <td>$x - $y</td>
+                              <td>Resta de $x - $y</td>
+                            </tr>
+                            <tr>
+                              <td>*</td>
+                              <td>Multiplicación</td>
+                              <td>$x * $y</td>
+                              <td>Producto de $x * $y</td>
+                            </tr>
+                            <tr>
+                              <td>/</td>
+                              <td>División</td>
+                              <td>$x / $y</td>
+                              <td>Cociente de $x / $y</td>
+                            </tr>
+                            <tr>
+                              <td>%</td>
+                              <td>Módulo</td>
+                              <td>$x % $y</td>
+                              <td>Residuo de la división $x % $y</td>
+                            </tr>
+                          </tbody>                          
+                        </table>
+                        <script src="http://pastebin.com/embed_js.php?i=rngBCQur"></script><br>
+                          </li>
+                          <li>Operadores de asignación.<br>
+                          <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th>Asignación</th>
+                              <th>Equivalencia</th>
+                              <th>Descripción</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>x = y</td>
+                              <td>x = y</td>
+                              <td>Asignación al operador de la izquierda del valor del operador de la derecha.</td>
+                            </tr>
+                            <tr>
+                              <td>x += y</td>
+                              <td>x = x + y</td>
+                              <td>Suma</td>
+                            </tr>
+                            <tr>
+                              <td>x -= y</td>
+                              <td>x = x - y</td>
+                              <td>Resta</td>
+                            </tr>
+                            <tr>
+                              <td>x *= y</td>
+                              <td>x = x * y</td>
+                              <td>Multiplicación</td>
+                            </tr>
+                            <tr>
+                              <td>x /= y</td>
+                              <td>x = x / y</td>
+                              <td>División</td>
+                            </tr>
+                            <tr>
+                              <td>x %= y</td>
+                              <td>x = x % y</td>
+                              <td>Módulo</td>
+                            </tr>
+                          </tbody>                          
+                        </table>
+                        <script src="http://pastebin.com/embed_js.php?i=8L2JJ1yM"></script><br>
+                          </li>
+                          <li>
+                            Operadores de cadenas.<br>
+                          <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th>Operador</th>
+                              <th>Nombre</th>
+                              <th>Ejemplo</th>
+                              <th>Resultado</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>.</td>
+                              <td>Concatenación</td>
+                              <td>$txt1 = "Hello"<br>$txt2 = $txt1 . " world!"</td>
+                              <td>$txt2 contiene "Hello world!"</td>
+                            </tr>
+                            <tr>
+                              <td>.=</td>
+                              <td>Concatenación y asignación</td>
+                              <td>$txt1 = "Hello"<br>$txt1 .= " world!"</td>
+                              <td>$txt1 contiene "Hello world!"</td>
+                            </tr>
+                          </tbody>                          
+                        </table>
+                        <script src="http://pastebin.com/embed_js.php?i=KR4wJBwp"></script><br>
+                          </li>
+                          <li>
+                            Operadores de incremento/decremento.<br>
+                            <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th>Operador</th>
+                              <th>Nombre</th>
+                              <th>Descripción</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>++$x</td>
+                              <td>Pre-incremento</td>
+                              <td>Incrementa $x en uno, luego devuelve $x</td>
+                            </tr>
+                            <tr>
+                              <td>$x++</td>
+                              <td>Post-incremento</td>
+                              <td>Devuelve $x, luego incrementa $x en uno</td>
+                            </tr>
+                            <tr>
+                              <td>--$x</td>
+                              <td>Pre-decremento</td>
+                              <td>Decrementa $x en uno, luego devuelve $x</td>
+                            </tr>
+                            <tr>
+                              <td>$x--</td>
+                              <td>Post-incremento</td>
+                              <td>Devuelve $x, luego decrementa $x en uno</td>
+                            </tr>
+                          </tbody>                          
+                        </table><script src="http://pastebin.com/embed_js.php?i=ktvVP3f7"></script><br>
+                          </li>
+                          <li>
+                            Operadores de comparación<br>
+                            <table class="table table-bordered">
+                          <thead>
+                            <tr>
+                              <th>Operador</th>
+                              <th>Nombre</th>
+                              <th>Ejemplo</th>
+                              <th>Resultado</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>==</td>
+                              <td>Igual</td>
+                              <td>$x == $y</td>
+                              <td>Verdadero si $x es igual a $y</td>
+                            </tr>
+                            <tr>
+                              <td>===</td>
+                              <td>Idéntico</td>
+                              <td>$x === $y</td>
+                              <td>Verdadero si $x es igual a $y y si son del mismo tipo</td>
+                            </tr>
+                            <tr>
+                              <td>!=</td>
+                              <td>Diferente</td>
+                              <td>$x != $y</td>
+                              <td>Verdadero si $x es diferente a $y</td>
+                            </tr>
+                            <tr>
+                              <td>&lt;&gt;</td>
+                              <td>Diferente</td>
+                              <td>$x &lt;&gt; $y</td>
+                              <td>Verdadero si $x es diferente a $y</td>
+                            </tr>
+                            <tr>
+                              <td>!==</td>
+                              <td>No idéntico</td>
+                              <td>$x !== $y</td>
+                              <td>Verdadero si $x no es igual a $y o bien si no son del mismo tipo</td>
+                            </tr>
+                            <tr>
+                              <td>&gt;</td>
+                              <td>Mayor que</td>
+                              <td>$x &gt; $y</td>
+                              <td>Verdadero si $x es mayor que $y</td>
+                            </tr>
+                            <tr>
+                              <td>&lt;</td>
+                              <td>Menor que</td>
+                              <td>$x &lt; $y</td>
+                              <td>Verdadero si $x es menor que $y</td>
+                            </tr>
+                            <tr>
+                              <td>&gt;=</td>
+                              <td>Mayor o igual que</td>
+                              <td>$x &gt;= $y</td>
+                              <td>Verdadero si $x es mayor o igual que $y</td>
+                            </tr>
+                            <tr>
+                              <td>&lt;=</td>
+                              <td>Menor o igual que</td>
+                              <td>$x &lt;= $y</td>
+                              <td>Verdadero si $x es menor o igual que $y</td>
+                            </tr>
+                          </tbody>                          
+                        </table>
+                          </li>
+                        </ul>
+                        <h3>Sentencias condicionales.</h3>
+                        <p>Las sentencias condicionales se utilizan para realizar diferentes acciones dependiendo de diferentes condiciones.</p>
+                        <ul>
+                          <li>if<br>
+                            <p>La sentencia if se utiliza para ejecutar cierto código solamente si una condición específica es verdadera.</p><br>
+                            <p>Sintaxis:</p>
+                            
+                          </li>
+                        </ul>
                     </div>
                 </div>
                 <!-- /.row -->
