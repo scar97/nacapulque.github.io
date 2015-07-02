@@ -435,12 +435,77 @@
                         <h3>Sentencias condicionales.</h3>
                         <p>Las sentencias condicionales se utilizan para realizar diferentes acciones dependiendo de diferentes condiciones.</p>
                         <ul>
-                          <li>if<br>
+                          <li><h3>if</h3><br>
                             <p>La sentencia if se utiliza para ejecutar cierto código solamente si una condición específica es verdadera.</p><br>
                             <p>Sintaxis:</p>
-                            
+                            <script src="http://pastebin.com/embed_js.php?i=PYcb49iY"></script><br>
+                            <h3>Ejemplo 13. Sentencia if.</h3>
+                            <script src="http://pastebin.com/embed_js.php?i=wuxkEnaG"></script><br>
+                          </li>
+                          <li><h3>if-else</h3>
+                          <p>La sentencia if - else se utiliza para ejecutar cierto código si alguna condición es verdadera o algún otro código si la condición es falsa.</p><br>
+                          <p>Sintaxis:</p>
+                          <script src="http://pastebin.com/embed_js.php?i=GACDa1Pf"></script><br>
+                          <h3>Ejemplo 14. Sentencia if-else.</h3>
+                          <script src="http://pastebin.com/embed_js.php?i=UQResjZC"></script><br>
+                          </li>
+                          <li>
+                            <h3>if-elseif-else</h3>
+                            <p>La sentencia if - elseif- else se utiliza para seleccionar uno de varios bloques de código a ser ejecutado.</p><br>
+                            <p>Sintaxis:</p>
+                            <script src="http://pastebin.com/embed_js.php?i=BQzXzw0K"></script><br>
+                            <h3>Ejemplo 15. Sentencia if - elseif - else.</h3>
+                            <script src="http://pastebin.com/embed_js.php?i=BJE4Me0b"></script><br>
                           </li>
                         </ul>
+                        <h3>Ciclo While.</h3>
+                        <p>Algunas veces cuando se escribe un programa, se necesita que cierto bloque de código se ejecute una y otra vez. En lugar de añadir varias líneas de código muy similar se puede utilizar un ciclo para realizar este tipo de tarea.</p>
+                        <p>El ciclo while repite la ejecución de cierto bloque de código siempre y cuando la condición especificada sea verdadera.</p>
+                        <p>Sintaxis:</p>
+                        <script src="http://pastebin.com/embed_js.php?i=HgwrzUkV"></script><br>
+                        <h3>Ejemplo 16. Ciclo while.</h3>
+                        <script src="http://pastebin.com/embed_js.php?i=WUHYCBDK"></script><br>
+                        <h3>Ciclo For.</h3>
+                        <p>El ciclo for es utilizado cuando se sabe exactamente cuantas veces se debe repetir la ejecución de cierto código.</p>
+                        <p>Sintaxis:</p>
+                        <script src="http://pastebin.com/embed_js.php?i=F1guMWnr"></script><br>
+                        <h3>Ejemplo 17. Ciclo For.</h3>
+                        <script src="http://pastebin.com/embed_js.php?i=rzFb0xLV"></script><br>
+                        <h3>Funciones.</h3>
+                        <p>El verdadero poder de PHP está en las funciones, ya que posee más de 1000 funciones listas para utilizarse. Sin embargo, es posible crear nuestras propias funciones.</p>
+                        <p>Una función es un fragmento de código que puede ser utilizado en varias ocasiones en el programa.</p>
+                        <p>Sintaxis:</p>
+                        <script src="http://pastebin.com/embed_js.php?i=HXewE6G6"></script><br>
+                        <p>El nombre de una función puede comenzar con cualquier letra o un guión bajo pero no con un número. Se recomienda nombrar una función por lo que hace.</p>
+                        <h3>Ejemplo 18. Una función recibe y devuelve parámetros.</h3>
+                        <script src="http://pastebin.com/embed_js.php?i=mbuVYmgu"></script><br>
+                        <h3>Manejo de formularios.</h3>
+                        <p>Las variables superglobales $_GET y $_POST se utilizan para recolectar datos de un formulario.</p>
+                        <h3>Ejemplo 19. Formulario sencillo en HTML mediante $_POST</h3>
+                        <p>HTML</p>
+                        <script src="http://pastebin.com/embed_js.php?i=C89NzduX"></script><br>
+                        <p>PHP</p>
+                        <script src="http://pastebin.com/embed_js.php?i=WjgqFGwn"></script><br>
+                        <p>Cuando el usuario llena el formulario y presiona el botón de “Submit”, los datos del formulario son procesados a un archivo PHP llamado “welcome.php”. Los datos son enviados por el método HTTP POST.</p>
+                        <h3>Ejemplo 20. Formulario sencillo en HTML mediante $_GET</h3>
+                        <p>HTML</p>
+                        <script src="http://pastebin.com/embed_js.php?i=Tg5NGdrU"></script><br>
+                        <p>PHP</p>
+                        <script src="http://pastebin.com/embed_js.php?i=76jBdNsB"></script><br>
+                        <p>El código en los ejemplos anteriores es muy simple, sin embargo falta lo más importante. Es necesario validar los datos del formulario para proteger el script de código malicioso.</p>
+                        <h3>GET vs POST</h3>
+                        <p>Tanto GET como POST crean un arreglo que contiene pares de llaves y valor, donde las llaves son los nombres de los controles del formulario y los valores son los datos que ingresa el usuario en ellos.</p>
+                        <p>$_GET es un arreglo que variables que son pasadas al script mediante parámetros en el URL.</p>
+                        <p>$_POST es un arreglo de variables que son pasadas al script mediante el método HTTP POST.</p>
+                        <h3>Cuando utilizar GET</h3>
+                        <p>La información enviada por un formulario mediante el método GET es visible para todos, ya que todas las variables son desplegadas en la URL). Adicionalmente GET tiene una limitante en la cantidad de parámetros que se pueden enviar, que es de 2000 caracteres.</p>
+                        <p>Dado que las variables son desplegadas en la URL, es posible marcar como favorita una página específica dentro de un sistema Web.</p>
+                        <p>Éste método puede ser utilizado para enviar datos que no son críticos, nunca debe utilizarse para enviar contraseñas o algún tipo de información crítica.</p>
+                        <h3>Cuando utilizar POST</h3>
+                        <p>La información enviada por un formulario mediante el método POST es invisible para todos, todas las variables y su contenido son integrados dentro del cuerpo de la solicitud HTTP. Por otro lado, no tiene limitante en la cantidad de datos que se pueden enviar.</p>
+                        <p>Dado que las las variables no son mostradas en la URL, no es posible guardar como favorita una página dentro de un sistema Web.</p>
+                        <p>La mayoría de los desarrolladores prefieren utilizar el método POST para enviar datos.</p>
+                        <h3>Validación de Formularios con PHP</h3>
                     </div>
                 </div>
                 <!-- /.row -->
